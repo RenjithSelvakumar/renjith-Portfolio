@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    color: black;
+    height: auto;
+    width: 100%;
+}
+.land{
+    background-image: url(landing\ page.png);
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.logo span{
+    color: red;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.navbar a:first-child{
+    color: red;
+}
+.navbar :hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.content{
+    color: white;
+    margin-left: 10%;
+    margin-top: 50vh;
+}
+.content span{
+    color: red;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.content h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.content h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.content h3 span{
+    columns: red;
+}
+.hire{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+.hire:hover{
+    background-color: red;
+}
+.about{
+    background-image: url(about.png);
+    height: 100vh;
+    width: 100%;
+    padding-top: 200px;
+    text-align: center;
+}
+.about a{
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+}
+.aboutcontent{
+    text-align: left;
+    padding-left: 46%;
+    padding-right: 10%;
+    padding-top: 80px;
+    font-size: 30px;
+    color: white;
+}
+.work{
+    background-color: #202020;
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+.work a{
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+}
+.work h1{
+    color: white;
+    padding-top: 20px;
+}
+.work h2{
+    position: relative;
+    top: 70vh;
+    color: white;
+    cursor: pointer;
+}
+.workcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+.work1{
+    border-radius: 80px;
+    box-shadow: 5px 5px 30px;
+}
+.work2{
+    border-radius: 80px;
+    box-shadow: 5px 5px 30px;
+}
+.work3{
+    border-radius: 80px;
+    box-shadow: 5px 5px 30px;
+}
+.workbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+.w1{
+    position: relative;
+    bottom: 63vh;
+    height: 514px;
+    width: 366px;
+    background-color: none;
+    border-radius: 70px;
+}
+.w2{
+    position: relative;
+    bottom: 63vh;
+    height: 514px;
+    width: 366px;
+    background-color: none;
+    border-radius: 70px;
+}
+.w3{
+    position: relative;
+    bottom: 63vh;
+    height: 514px;
+    width: 366px;
+    background-color: none;
+    border-radius: 70px;
+}
+.w1:hover{
+    background: linear-gradient(transparent, red );
+}
+.w2:hover{
+    background: linear-gradient(transparent, red );
+}
+.w3:hover{
+    background: linear-gradient(transparent, red );
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+
+}
+.contact a{
+    color: red;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 500;
+}
+.contact form{
+    text-align: center;
+    max-width: 50%;
+    margin: 5% auto;
+}
+.contact form input,
+.contact form textarea{
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: none;
+    background-color: #202020;
+    color: white;
+    border-radius: 10px;
+}
+.btn-box{
+    margin: 20px auto;
+}
+.btn-box button{
+    height: 40px;
+    width: 150px;
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.btn-box button:hover{
+    background-color: red;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+
+
